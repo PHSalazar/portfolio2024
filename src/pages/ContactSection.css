@@ -1,0 +1,23 @@
+.iconsSocialsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  img {
+    width: 32px;
+    height: 32px;
+  }
+
+  div:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    span {
+      color: #50565c;
+      font-style: italic;
+    }
+  }
+}

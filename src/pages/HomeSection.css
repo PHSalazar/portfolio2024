@@ -1,0 +1,22 @@
+.cardProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 100vh;
+
+  .imageProfile {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+    border: 5px solid rgba(119, 119, 119, 0.5);
+    padding: 8px;
+  }
+
+  div {
+    h3 {
+      color: rgba(119, 119, 119, 1);
+    }
+  }
+}
