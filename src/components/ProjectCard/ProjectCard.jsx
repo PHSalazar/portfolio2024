@@ -10,7 +10,9 @@ const ProjectCard = ({ projectObject }) => {
   return (
     <div className="card">
       <img
-        src={`public/screenshots/${projectObject.name}.png`}
+        src={`${import.meta.env.BASE_URL}/screenshots/${
+          projectObject.name
+        }.png`}
         alt="Thumb do projeto"
         className="thumbProject"
         onError={(e) => (e.target.src = noImage)}
